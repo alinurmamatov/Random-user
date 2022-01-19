@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #14213d 50%, #ffffff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #e5e5e5;
+    height: 63vh;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+fieldset {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #fca311;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.avatar {
+    height: 150px;
+    border-radius: 8px;
+}
+
+legend {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.icons-wrapper {
+    display: flex;
+    padding: 0 15%;
+    justify-content: space-around;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon:hover {
+    color: #f6f9aa;
+    box-shadow: 0 1px 5px #344468;
+    border-radius: 5px;
+
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #faf9f9;
+}
